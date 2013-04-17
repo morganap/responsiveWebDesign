@@ -1,0 +1,162 @@
+#menuButton {
+	display: none;
+	width: 30%;
+	height: 3em;
+	font-size: 1.5em;
+	margin-left: 1em;
+}
+
+.sapUiMnuLst {
+	font-size: 1.5em;
+}
+
+.sapUiLbx {
+	margin-bottom: 1em; 
+}
+
+.sapUiLbxITxt {
+	font-size: 1.5em;
+}
+
+.sapUiTf {
+	font-size: 1.5em;
+}
+
+.sapUiLnk {
+    padding:1em;
+    font-size:2em;
+    text-decoration:none;
+    color: white;
+    
+    margin-bottom: 1em;
+    marging-left:0.5em;
+    margin-right:0.1em;
+    padding-left: 0.8em;
+  	padding-right: 0.8em; 
+  	border-top-left-radius: 15px;
+  	border-top-right-radius: 15px;
+  
+    vertical-align:baseline;
+	background-color: #537CB6;  
+	background-image: -webkit-linear-gradient(#498EF0, #537CB6);
+	background-image: -moz-linear-gradient(#498EF0, #537CB6);
+	background-image: -o-linear-gradient(#498EF0, #537CB6);
+	background-image: -ms-linear-gradient(#498EF0, #537CB6);
+	background-image: -chrome-linear-gradient(#498EF0, #537CB6);
+	background-image: linear-gradient(#498EF0, #537CB6);
+}
+
+.sapUiBody {
+	background: linear-gradient(90deg, #ffffff -50%, #e4e4e4 50%,#CAD2D5 100%);
+}
+
+.sapUiLnk:hover {
+	text-decoration:none;
+	color: white;
+	background-color: #537CB6;  
+	background-image: -webkit-linear-gradient(#000000, #537CB6);
+	background-image: -moz-linear-gradient(#000000, #537CB6);
+	background-image: -o-linear-gradient(#000000, #537CB6);
+	background-image: -ms-linear-gradient(#000000, #537CB6);
+	background-image: -chrome-linear-gradient(#000000, #537CB6);
+	background-image: linear-gradient(#000000, #537CB6);
+}
+
+#aboutAnimal {
+	font-size: 1.6em;
+	max-width: 67%; 
+	margin-top: 0.5em;
+	margin-left: 0.5em;
+}
+
+
+#imgAnimal {
+	box-shadow: 0px 3px 5px #444444;
+	-ms-box-shadow: 0px 3px 5px #444444;
+	-moz-box-shadow: 0px 3px 5px #444444;
+	-webkit-box-shadow: 0px 3px 5px #444444;
+	box-shadow: 0px 3px 5px #444444;
+}
+
+/*The media queries need to be last in the css to make the dynamic content load 
+correctly */
+@media screen and (min-width: 961px) {
+	#imgAnimal {
+		float: left;
+		margin-right: 1em;
+		max-width: 25%;
+	}
+}
+
+@media screen and (max-width: 960px) {
+   #aboutAnimal {
+		font-size: 1.6em;
+		max-width: 65%;
+	}
+	#imgAnimal {
+		float: right;
+		margin-right: 1em;
+		max-width: 25%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+  #menuButton {
+  	display: inline-block;
+  	margin-left: 6em;
+  	width: 20%;
+  }
+  #Layout1 {
+  	display: none;
+  }
+  #aboutAnimal {
+	font-size: 1.4em;
+	margin-left: 0.2em;
+	margin-right: 0.2em;
+	margin-top: 1em;
+	max-width: 100%;
+  }
+  #imgAnimal {
+  	margin-left: 0.2em;
+  	float: left;
+  	max-width: 40%;
+  }
+} 
+
+@media screen and (max-width: 550px) {
+  #aboutAnimal {
+	font-size: 1.3em;
+	margin-left: 0.2em;
+	margin-right: 0.2em;
+	margin-top: 1em;
+	max-width: 100%;
+  }
+  #imgAnimal {
+  	margin-left: 0.2em;
+  	max-width: 40%;
+  }
+  #menuButton {
+  	margin-left: 3.0em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #aboutAnimal {
+	font-size: 1.2em;
+	margin-left: 0.2em;
+	margin-right: 0.2em;
+	margin-top: 1em;
+	max-width: 100%;
+  }
+  #imgAnimal {
+  	margin-left: 0.2em;
+  	max-width: 35%;
+  }
+  #menuButton {
+  	margin-left: 2.7em;
+  	font-size: 1.3em;
+  }
+}
+
+
+

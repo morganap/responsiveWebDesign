@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+       <head>
+       		  <meta name="viewport" content="width=device-width, initial-scale=1">
+              <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+   			  <script src="resources/sap-ui-core.js"
+                      id="sap-ui-bootstrap"
+                      data-sap-ui-libs="sap.ui.commons"
+                      data-sap-ui-theme="sap_goldreflection" >
+              </script>
+
+   			  <script>
+			         sap.ui.localResources("responsivewebdesign");
+                     var view = sap.ui.view({id:"idresponsive1", viewName:"responsivewebdesign.responsive", type:sap.ui.core.mvc.ViewType.JS});
+   			         view.placeAt("content");
+   			  </script>
+   	    	
+   	    	  <link rel="stylesheet" href="style.css" />
+
+       </head>
+       <body class="sapUiBody" role="application">
+              <div id="content"></div>
+       </body>
+</html>
